@@ -19,8 +19,10 @@ $imported["Fireplace-ClassLevelTies"] = true
 # 
 # @@Usage:
 # Class Notetags - These notetags go in the class notebox in the database.
+# <tied_to: x>
+# -Ties the exp gain of the class with id x to the exp gain of this class.
 # <tied_to: x, y>
-# -Ties the exp gain of classes with ids x and y to the exp gain of this class.
+# -Ties the exp gain of classes with ids x and y to the exp gain of this class. You can add as many class ids separated by commas as you like.
 # <tied>
 # -Prevents a class from directly earning exp. It will instead have to earn it from having
 # another class tied_to it.
