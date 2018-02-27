@@ -2,7 +2,7 @@
 # -- Difficulty Level: Easy
 
 $imported = {} if $imported.nil?
-$imported["Fireplace-ElementalActors"] = true
+$imported["Fireplace-RemoveMP"] = true
 
 # @@Updates:
 # 2018.02.27 - Initial Script Creation
